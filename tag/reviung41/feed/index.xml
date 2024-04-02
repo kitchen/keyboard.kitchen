@@ -12,7 +12,7 @@
 	<atom:link href="/tag/reviung41/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Tue, 02 Apr 2024 21:13:10 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 02 Apr 2024 21:46:55 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -85,14 +85,13 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>/build-log-reviung41lp/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
+			<slash:comments>3</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Build Log: Reviung41</title>
 		<link>/build-log-reviung41/</link>
-					<comments>/build-log-reviung41/#respond</comments>
 		
 		<dc:creator><![CDATA[kitchen]]></dc:creator>
 		<pubDate>Mon, 10 May 2021 01:38:25 +0000</pubDate>
@@ -174,8 +173,6 @@
 <figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/05/img_3582.jpg?w=1024" alt="" class="wp-image-152" /><figcaption>The finished product.</figcaption></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/build-log-reviung41/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

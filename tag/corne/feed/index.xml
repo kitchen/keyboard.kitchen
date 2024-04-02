@@ -12,7 +12,7 @@
 	<atom:link href="/tag/corne/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Tue, 02 Apr 2024 21:12:12 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 02 Apr 2024 21:46:55 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>Build Log: Corne Light v2</title>
 		<link>/build-log-corne-light-v2/</link>
-					<comments>/build-log-corne-light-v2/#respond</comments>
 		
 		<dc:creator><![CDATA[kitchen]]></dc:creator>
 		<pubDate>Sun, 18 Apr 2021 04:14:51 +0000</pubDate>
@@ -141,8 +140,6 @@
 </div></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/build-log-corne-light-v2/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>

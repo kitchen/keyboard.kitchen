@@ -11,13 +11,27 @@
 	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Tue, 02 Apr 2024 21:13:10 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 02 Apr 2024 21:46:55 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.5</generator>
 	<item>
+		<title>
+		Comment on Build Log: Reviung41lp by kitchen		</title>
+		<link>/build-log-reviung41lp/#comment-14</link>
+
+		<dc:creator><![CDATA[kitchen]]></dc:creator>
+		<pubDate>Tue, 02 Apr 2024 21:41:50 +0000</pubDate>
+		<guid isPermaLink="false">http://keyboard.kitchen/?p=146#comment-14</guid>
+
+					<description><![CDATA[htnsueoahtns]]></description>
+			<content:encoded><![CDATA[<p>htnsueoahtns</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
 		<title>
 		Comment on Build log: Corne Chocolate v2.1 by kitchen		</title>
 		<link>/build-log-corne-chocolate-v2-1/#comment-10</link>
@@ -158,20 +172,6 @@ Nope! Works just fine for me!]]></description>
 
 					<description><![CDATA[I have the exact same components as you, and I was wondering if you could please send or post on Github your .uf2 file for flashing the nice!nano? The current firmware I have flashed has all the alphas off by a few spaces on the right hand side of the board.]]></description>
 			<content:encoded><![CDATA[<p>I have the exact same components as you, and I was wondering if you could please send or post on Github your .uf2 file for flashing the nice!nano? The current firmware I have flashed has all the alphas off by a few spaces on the right hand side of the board.</p>
-]]></content:encoded>
-		
-			</item>
-		<item>
-		<title>
-		Comment on Build log: Corne Chocolate v2.1 by maxell		</title>
-		<link>/build-log-corne-chocolate-v2-1/#comment-2</link>
-
-		<dc:creator><![CDATA[maxell]]></dc:creator>
-		<pubDate>Fri, 25 Mar 2022 05:18:36 +0000</pubDate>
-		<guid isPermaLink="false">http://keyboard.kitchen/2021/03/28/build-log-corne-chocolate-v2-1/#comment-2</guid>
-
-					<description><![CDATA[did you have to change anything to run just the naked pcb? how was it? any problems etc, been thinking about going that route with my corne]]></description>
-			<content:encoded><![CDATA[<p>did you have to change anything to run just the naked pcb? how was it? any problems etc, been thinking about going that route with my corne</p>
 ]]></content:encoded>
 		
 			</item>
