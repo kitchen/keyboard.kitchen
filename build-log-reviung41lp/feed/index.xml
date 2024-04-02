@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Build Log: Reviung41lp	</title>
+	<atom:link href="/build-log-reviung41lp/feed/" rel="self" type="application/rss+xml" />
+	<link>/build-log-reviung41lp/</link>
+	<description></description>
+	<lastBuildDate>Tue, 02 Apr 2024 21:13:10 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5</generator>
+	<item>
+		<title>
+		By: kitchen		</title>
+		<link>/build-log-reviung41lp/#comment-13</link>
+
+		<dc:creator><![CDATA[kitchen]]></dc:creator>
+		<pubDate>Thu, 26 May 2022 02:32:40 +0000</pubDate>
+		<guid isPermaLink="false">http://keyboard.kitchen/?p=146#comment-13</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/build-log-reviung41lp/#comment-12&quot;&gt;Ben&lt;/a&gt;.
+
+My zmk configs can be found at https://github.com/kitchen/zmk-config
+
+Note that there’s reviung41 and reviung41lp in there and there’s a custom overlay file for the lp that is being included in the build. It’s a bit wonky but it works fine. The idea is that it leverages the reviung41 shield config built in to zmk but uses a different pin out and matrix transform. Honestly it should probably just be a distinct shield but I didn’t know what I was doing at the time and haven’t revisited things.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/build-log-reviung41lp/#comment-12">Ben</a>.</p>
+<p>My zmk configs can be found at <a href="https://github.com/kitchen/zmk-config" rel="nofollow ugc">https://github.com/kitchen/zmk-config</a></p>
+<p>Note that there’s reviung41 and reviung41lp in there and there’s a custom overlay file for the lp that is being included in the build. It’s a bit wonky but it works fine. The idea is that it leverages the reviung41 shield config built in to zmk but uses a different pin out and matrix transform. Honestly it should probably just be a distinct shield but I didn’t know what I was doing at the time and haven’t revisited things.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ben		</title>
+		<link>/build-log-reviung41lp/#comment-12</link>
+
+		<dc:creator><![CDATA[Ben]]></dc:creator>
+		<pubDate>Wed, 25 May 2022 21:44:07 +0000</pubDate>
+		<guid isPermaLink="false">http://keyboard.kitchen/?p=146#comment-12</guid>
+
+					<description><![CDATA[I have the exact same components as you, and I was wondering if you could please send or post on Github your .uf2 file for flashing the nice!nano? The current firmware I have flashed has all the alphas off by a few spaces on the right hand side of the board.]]></description>
+			<content:encoded><![CDATA[<p>I have the exact same components as you, and I was wondering if you could please send or post on Github your .uf2 file for flashing the nice!nano? The current firmware I have flashed has all the alphas off by a few spaces on the right hand side of the board.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

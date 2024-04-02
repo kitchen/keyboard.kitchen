@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>build log &#8211; keyboard kitchen</title>
+	<atom:link href="/tag/build-log/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 02 Apr 2024 21:12:50 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5</generator>
+	<item>
+		<title>Build Log: Reviung41</title>
+		<link>/build-log-reviung41/</link>
+					<comments>/build-log-reviung41/#respond</comments>
+		
+		<dc:creator><![CDATA[kitchen]]></dc:creator>
+		<pubDate>Mon, 10 May 2021 01:38:25 +0000</pubDate>
+				<category><![CDATA[Build Logs]]></category>
+		<category><![CDATA[build log]]></category>
+		<category><![CDATA[reviung41]]></category>
+		<guid isPermaLink="false">http://keyboard.kitchen/?p=145</guid>
+
+					<description><![CDATA[I have come across the Reviung many times in my searches through the mechanical keyboard world. I remember early on thinking it didn’t have nearly enough keys, where would I put my brackets, etc. Now I’ve built one and since built another and I absolutely love it. The BOM Reviung41 kit from Boardsource.xyz Pro micro [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>I have come across the Reviung many times in my searches through the mechanical keyboard world. I remember early on thinking it didn’t have nearly enough keys, where would I put my brackets, etc. Now I’ve built one and since built another and I absolutely love it.</p>
+
+
+
+<h2 class="wp-block-heading">The BOM</h2>
+
+
+
+<ul><li><a href="https://boardsource.xyz/store/5f2ef1b52bf5e8714a60f613">Reviung41 kit</a> from Boardsource.xyz</li><li>Pro micro controller</li><li><a href="https://drop.com/buy/drop-invyr-holy-panda-mechanical-switches">Drop+Invyr Holy Panda</a> switches</li><li><a href="https://kbdfans.com/collections/np-profile/products/np-pbt-crayon-keycaps-set">KBDFans NP PBT Crayon</a> caps</li></ul>
+
+
+
+<h2 class="wp-block-heading">The Build</h2>
+
+
+
+<p><iframe title="Let’s Build a Reviung41!" width="1000" height="563" src="https://www.youtube.com/embed/ThYENosI5Z4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+
+
+
+<p>This is a pretty straightforward build. Diodes, hotswap sockets, controller and reset switch. And a few RGBs. I struggled a bit with the RGBs as I always do, but eventually managed to get them all working. I really *really* dig the aesthetic of the one LED on top behind the grill in the switchplate. I do wish it was controllable separately from the rest of the RGBs though so I could have something else going on the underglow but just a solid red LED on the top, but it’s fine.</p>
+
+
+
+<p>I ordered the 2U stabilizers with the kit, and it was the first time I’d used a stabilizer. None of my other boards have 2U caps. I didn’t really know what I was doing. It was a bit of a pain to get installed, but eventually I got there. It was only after I finished putting all of the switches in and started putting caps on that I realized my 2U cap I was using wasn’t equipped with the required bits for stabilizers. And since I need to separate the PCB and the switchplate to get the stabilizer off, I have just left it on there and it’s just extra rattly bits <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>This was also my first build with the glass diodes that boardsource likes. I tried to use a different method for soldering them than I might have otherwise done and in the end several of them were not fully soldered on, a couple broke off while I was moving the board around for testing, etc. I’m not super certain I’m a fan of these, and in the future I’ll just go with the tried and true tin one pad and reflow it method of soldering them, rather than trying to do anything fancy with flux or whatever. Don’t mess with what works, right?</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/05/img_3581.jpg?w=1024" alt="" class="wp-image-150" /><figcaption>Well *there’s* your problem!</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading">Daily Driver</h2>
+
+
+
+<p>Shortly after I finished building it I took it for a test drive and it immediately became my daily driver. I had forgotten how nice good tactile switches were, since I’d been in the choc world for so long. I really do like the choc v2 brown switches, but they don’t stand up against Holy Pandas at all. The Pandas are on a completely different level.</p>
+
+
+
+<p>Since my standard keymap is designed around a 3&#215;6+3 board, I thought it might be a bit of a challenge to drop down to just 5 thumb keys, but I looked into it more and realized that I don’t even use one of my thumb keys in that keymap, so it was trivial for me to just omit it from the 5 thumb configuration. Adjusting to that change was simple.</p>
+
+
+
+<p>However, they’re also quite loud. And while that’s fine for at home, and maybe at the office, my long term use case for a keyboard is for travel and probably using it a fair amount in coffee shops and whatnot, so quieter is better.</p>
+
+
+
+<p>There are 2 things I’m not the biggest fan of with this build, however. The first is that the LEDs, while great, are not really usable at all with the FR4 base plate that comes with the Boardsource kit. You’d want a transparent or translucent plate. That’s fine, though, that’s a reasonable limitation. However, since the LED on the *top* of the board is the last one in the chain, you can’t have just that LED without the others, unless you want to do a bit of bodging. It would be really nice if the PCB had a jumper that supported that configuration.</p>
+
+
+
+<p>The second is that I should have used a controller with a black PCB instead of one with a blue PCB. This is entirely on me, and I even had controllers I could have used, but for whatever reason I didn’t.</p>
+
+
+
+<p>All in all, I seriously love this board. I have since swapped out the switches with Boba U4s and plan to daily drive it for a week or so to give those a solid try. My first impressions of them is they are as good as if not better than Zilent V2s, but there’s a bit of spring ping I want to look into with them before calling it good.</p>
+
+
+
+<p>I love this board. I love its smaller cousin I have, and I’m hoping to build a chocv2 version at some point. I may have finally reached end game!</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/05/img_3582.jpg?w=1024" alt="" class="wp-image-152" /><figcaption>The finished product.</figcaption></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>/build-log-reviung41/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Build Log: Corne Light v2</title>
+		<link>/build-log-corne-light-v2/</link>
+					<comments>/build-log-corne-light-v2/#respond</comments>
+		
+		<dc:creator><![CDATA[kitchen]]></dc:creator>
+		<pubDate>Sun, 18 Apr 2021 04:14:51 +0000</pubDate>
+				<category><![CDATA[Build Logs]]></category>
+		<category><![CDATA[build log]]></category>
+		<category><![CDATA[chocv2]]></category>
+		<category><![CDATA[corne]]></category>
+		<guid isPermaLink="false">https://keyboard.kitchen/?p=93</guid>
+
+					<description><![CDATA[A pair of Corne Light v2 PCBs recently came into my possession from Tom. He&#8217;d built it up with Kailh Choc v2 brown switches and said he actually liked them a fair amount, so I thought I&#8217;d do one up myself and see if I liked them. TL;DR: yes, I like them, and this is [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>A pair of Corne Light v2 PCBs recently came into my possession from <a href="https://twitter.com/bom_tarnes">Tom</a>. He&#8217;d built it up with Kailh Choc v2 brown switches and said he actually liked them a fair amount, so I thought I&#8217;d do one up myself and see if I liked them.</p>
+
+
+
+<p>TL;DR: yes, I like them, and this is my current daily driver. But let&#8217;s get into the details, shall we? </p>
+
+
+
+<h2 class="wp-block-heading">bill of materials</h2>
+
+
+
+<ul><li>Corne Light v2 PCBs</li><li>Kailh Choc v2 Browns</li><li>Rando DSA blanks from Amazon</li><li>SMT diodes</li><li>Pair of Pro Micro controllers</li><li>TRRS connectors and reset switches</li></ul>
+
+
+
+<p>This is a pretty simple build. I&#8217;m not adding OLEDs, the Light doesn&#8217;t have LEDs, it&#8217;s a wired build so not doing batteries or anything. Very basic and straightforward.</p>
+
+
+
+<h2 class="wp-block-heading">Diodes</h2>
+
+
+
+<p>I chose to use SMT diodes for this in large part because I wanted to try out the <a href="https://twitter.com/foostan/status/1005656803818889216">foostan technique</a> for soldering SK6812min RGB LEDs where he brushes some flux onto the pads, the LED, and then loads up a ball of solder on his iron and sets it on the component and it immediately flows and sets up and all is well. I didn&#8217;t have as much success with it on the RGBs as I was hoping, but I&#8217;ll be trying that again in the future. Meanwhile, I wanted to see if I could use the same technique for the diodes and make it all go much faster.</p>
+
+
+
+<p>In the past I&#8217;ve used through hole diodes, but that involves bending the legs, inserting them into the board, taping them in place (because I like them to be neat and tidy) and clipping off their legs. I&#8217;ve also done SMT diodes with solder paste, but that involves prepping all of the pads with paste, and then needing to clean up the board afterward because the solder paste leaves a sticky mess all over the board afterward.</p>
+
+
+
+<p>With this approach I was hoping it would be both easier *and* faster than the previous approaches I&#8217;d been using, and it absolutely was. I blasted through these diodes, and this is going to be my preferred method for soldering diodes in the future.</p>
+
+
+
+<h2 class="wp-block-heading">switches</h2>
+
+
+
+<p>The whole point of this build, after all!</p>
+
+
+
+<p>I got some Kailh Choc v2 browns and installed them. Since this is a Corne Light it doesn&#8217;t have sockets, so they&#8217;re soldered in, but that&#8217;s fine. I am not that interested in linear or clicky choc v2. If I want those, I already have my preferred switches in the Choc v1 form factor.</p>
+
+
+
+<p>I will say, I like them a fair amount. They&#8217;re more tactile than, say, the Choc v1 reds I was using, and quieter than the Choc robins. I haven&#8217;t actually used Choc v1 browns so not certain how they compare, but they&#8217;re pretty comfortable to type on. Not nearly as tactile as something like a Zilent or a Holy Panda, but good enough for my fingers to enjoy.</p>
+
+
+
+<p>There is a weird quirk with at least one of them, though. For some reason, it&#8217;s &#8230; clicky.</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Weird clicky Choc v2 brown" width="1000" height="563" src="https://www.youtube.com/embed/8hzISCdplnY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>It eventually stopped being clicky, and taking it apart it&#8217;s clear that the clickiness is coming from the actual switch contact mechanism making contact, but aside from slapping some lube on it and hoping for the best, I&#8217;m not really sure what to do about it.</p>
+
+
+
+<h2 class="wp-block-heading">keycaps</h2>
+
+
+
+<p>I am just using some <a href="https://www.amazon.com/gp/product/B07TLWX3TX">cheapy DSA blanks</a> from Amazon, but I have several kits of XDA, NP, MT3, KAT and other profiles either currently on their way or on group buy. I don&#8217;t hate these caps, though, they have a nice texture to them and the deeper dishing on the homing keys is easy to detect.</p>
+
+
+
+<h2 class="wp-block-heading">case and plate</h2>
+
+
+
+<p>I&#8217;m not using one. The switches are soldered, so a plate is less important, and I like my low profile builds to be *low*, so no case, either.</p>
+
+
+
+<h2 class="wp-block-heading">The finished product</h2>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/04/img_3531.jpeg?w=1024" alt="" class="wp-image-108" /><figcaption>All dressed up and ready for dinner</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/04/img_3526-2.jpeg?w=1024" alt="" class="wp-image-110" /><figcaption>Height comparison between my <a href="https://keyboard.kitchen/2021/03/28/build-log-corne-chocolate-v2-1/">Choc v1 Corne in its LP case</a></figcaption></figure>
+
+
+
+<h2 class="wp-block-heading">all in all</h2>
+
+
+
+<p>I really dig this board. It&#8217;s definitely a strong candidate for taking with me on the trail. I would want to make a modified version of the PCB with first class support for nice!nano and battery powered operation though: flipped controller, battery pads, power switch option. But the switches are pretty great, and hell even these cheap caps are not bad!</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Let’s Build a Corne Light v2!" width="1000" height="563" src="https://www.youtube.com/embed/-QApox3lE2E?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>/build-log-corne-light-v2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Build log: Corne Chocolate v2.1</title>
+		<link>/build-log-corne-chocolate-v2-1/</link>
+					<comments>/build-log-corne-chocolate-v2-1/#comments</comments>
+		
+		<dc:creator><![CDATA[kitchen]]></dc:creator>
+		<pubDate>Mon, 29 Mar 2021 04:26:55 +0000</pubDate>
+				<category><![CDATA[Build Logs]]></category>
+		<category><![CDATA[build log]]></category>
+		<category><![CDATA[chocv1]]></category>
+		<category><![CDATA[corne]]></category>
+		<guid isPermaLink="false">http://keyboard.kitchen/2021/03/28/build-log-corne-chocolate-v2-1/</guid>
+
+					<description><![CDATA[The idea with this build was to make a very light weight very low profile wireless keyboard for travel purposes. Perhaps even for Long Term Travel purposes. It has evolved a fair amount over time, but I think it’s mostly in its final form. I do get a lot of questions about various aspects of [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/03/img_3489.jpg?w=1024" alt="" class="wp-image-62" /><figcaption>Corne Chocolate v2.1</figcaption></figure>
+
+
+
+<p>The idea with this build was to make a very light weight very low profile wireless keyboard for travel purposes. Perhaps even for Long Term Travel purposes. It has evolved a fair amount over time, but I think it’s mostly in its final form. I do get a lot of questions about various aspects of the build, so I thought I’d finally do a writeup of what all I have.</p>
+
+
+
+<p>From a very high level, this is a:</p>
+
+
+
+<ul><li>Corne Chocolate v2.1 PCB kit</li><li>nice!nano controllers</li><li>choc robin switches</li><li>mbk blank white keycaps</li><li>Corne LP case</li></ul>
+
+
+
+<p>There are no OLEDs, nor are there any RGB LEDs.</p>
+
+
+
+<p>The build itself is a pretty standard choc corne build: SMD diodes, kailh hotswap sockets, and reset button. I could have done without the reset buttons, but I was resetting the board so much while trying to get everything figured out and connected to bluetooth and such I ended up soldering them on for easier resetting.</p>
+
+
+
+<p>The nice!nano controllers are mounted face up, using the controller holes for the other side of the board. I did this because I wanted the flat side down on the nanos, to make them sit much lower on top of the 301230 batteries that are stuffed underneath them.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/03/img_3440.jpg?w=1024" alt="" class="wp-image-63" /><figcaption>close-up of nice!nano, battery wires, and power switch</figcaption></figure>
+
+
+
+<p>I installed the batteries so the wires were coming out of the bottom of the controller area and routed them through holes in the TRRS footprint to the underside of the board. One of the TRRS pads is actually for ground, so I routed the black/negative wire through there and soldered it on the underside. The red/positive wire goes through one of 4 holes in the footprint that doesn’t have any pads on it.</p>
+
+
+
+<p>The switch is a <a href="https://www.digikey.com/short/5vr7c0rn">SPDT slide switch</a> I got from digikey. I use it to be able to switch the power off entirely to the keyboard so when I put the board into my backpack it’s not powered up. The switch has 3 legs, one in the center (the Pole) and one on either side of that (the Throws). I clipped one of them off and pushed the other 2 through no-pad holes in the TRRS footprint. On the bottom side of the board I soldered the battery lead to one of the legs, and a little bodge wire from the other leg to the RAW pin on the controller.</p>
+
+
+
+<p>I then squeezed some hot glue on to secure the wire in place so it would hopefully not get snagged on things, as originally this board was meant to be used without a case, and was used that way for several weeks.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="706" height="1447" src="/wp-content/uploads/2021/03/image.jpg?w=500" alt="" class="wp-image-65" srcset="/wp-content/uploads/2021/03/image.jpg 706w, /wp-content/uploads/2021/03/image-146x300.jpg 146w, /wp-content/uploads/2021/03/image-500x1024.jpg 500w" sizes="(max-width: 706px) 100vw, 706px" /><figcaption>really bad picture showing the wiring on the underside of the board</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/03/image-1.jpg?w=1024" alt="" class="wp-image-68" /><figcaption>switches and batteries all wired up with no case</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading">Soldered nice!nanos?!</h2>
+
+
+
+<p>Yes, I soldered my nice!nanos on. I haven’t been an especially big fan of the mill max sockets + diode legs thing, I feel like the diode legs are too thin and bend too easily, making pulling the controller and reinstalling it a pain. And honestly, that’s about the only reason why. I may try all day to justify it for any other reason, but in the end, it’s just that I don’t like the traditional solution. I am on the lookout for better mechanisms for swappability of controllers, though, so perhaps a future build will feature one of those.</p>
+
+
+
+<h2 class="wp-block-heading">Corne LP case</h2>
+
+
+
+<p>Eventually I decided to buy a Corne LP case for it. I’d seen lots of pictures of folks with theirs and thought it looked really nice, so went for it. I’m glad I did. I do still very much like the naked PCB vibe, and especially for Long Term Travel the case is too heavy, but I also like the aesthetic of the Corne LP case. I can always build another naked PCB corne!</p>
+
+
+
+<h2 class="wp-block-heading">Lifted switch pads!</h2>
+
+
+
+<p>One thing that happened with this build is after much swapping of switches and whatnot, I *finally* pulled my first pad from inserting switches into kailh sockets. When I was installing the switches into the plate, one of the pins must have been misaligned, and given that the plate requires a bit of force to seat the switch, I didn’t think anything of applying a bit more force when pushing the switch in. Next thing you know, I have a socket popped off the back of the board. Fortunately it was an easy fix, most of the socket and its pads were still electrically intact, so I just needed to run a little bodge wire from one of the switches to the next in the column and route around the mounting holes and all was well.</p>
+
+
+
+<h2 class="wp-block-heading">Tenting</h2>
+
+
+
+<p>I’d just finished adding some conical rubber feet to my MX Corne right before I built this board and wanted to figure out some sort of tenting solution for this as well. It may seem odd to want to tent a low profile keyboard, but for me the low profile and naked PCB aspect and such is much more about portability than about ergonomics.</p>
+
+
+
+<p>I will say that I made several attempts at securing the same conical bumpers to this board, and while it worked for a time, the hot glue just didn’t want to stay stuck to the PCB, and there’s not enough flat surface on the bottom anywhere to secure the feet directly. I eventually gave up and haven’t used the board tented since. Hell, for a while I didn’t even use any bumpons at all on the board, but I recorded a video of typing on it and someone commented that it was moving all over the place, something I’d noticed but it hadn’t bothered me, and suddenly it bothered me a lot, so I threw some bumpons on.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/03/image-2.jpg?w=1024" alt="" class="wp-image-70" /><figcaption>tenting action shot</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/03/image-3.jpg?w=1024" alt="" class="wp-image-73" /><figcaption>tenting nubs</figcaption></figure>
+
+
+
+<p>Now that I have it in the Corne LP case, it’s possible I may try tenting it again, but I’ve also discovered that if I spread the halves apart more, I can get a lot of the additional comfort I get from tenting just my having my arms a bit straighter and therefore not have to rotate my wrists so much. So we’ll see.</p>
+
+
+
+<h2 class="wp-block-heading">ZMK</h2>
+
+
+
+<p>As this board is using nice!nano controllers, I am running the amazing ZMK firmware on it. It’s the first board I’ve fully set up ZMK on and used and I ported my keymap over from QMK. So far ZMK has support for all of the functionality I want, and the fact that the board is fully wireless is pretty awesome.</p>
+
+
+
+<p>I will say that I’ve had some trouble keeping the thing paired to my macs. I have a macbook pro from work, a personal macbook air, and a personal m1 mac mini, and all of them seem to have trouble keeping paired for some reason or another. However, my primary target for this board is my iPad, and it works perfectly with that. For the other computers in my life, I just hook up the central (left hand) side via usb, something I already have set up anyways for wired boards, and that works perfectly fine. At some point I may try to dig more into the bluetooth macos issues, but for now I am not super concerned about it.</p>
+
+
+
+<h2 class="wp-block-heading">Finally</h2>
+
+
+
+<p>All in all I love this board. I’ve been using it as my daily driver for well over a month now. I’ve gone through a bunch of different switches: tape/lubed reds, robins, gchocs, robins, dark yellows, robins, and now I’m back to robins and probably going to stay that way. I *might* try whites, but I feel like I’ll be starting to play with fire regarding my sockets if I don’t stop swapping out switches all the time. I am almost certainly going to play around with different cap colors, and I even have some surprise caps coming in that I’ll try out!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/build-log-corne-chocolate-v2-1/feed/</wfw:commentRss>
+			<slash:comments>8</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

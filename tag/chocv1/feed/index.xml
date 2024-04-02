@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>chocv1 &#8211; keyboard kitchen</title>
+	<atom:link href="/tag/chocv1/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 02 Apr 2024 21:13:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5</generator>
+	<item>
+		<title>Build Log: Reviung41lp</title>
+		<link>/build-log-reviung41lp/</link>
+					<comments>/build-log-reviung41lp/#comments</comments>
+		
+		<dc:creator><![CDATA[kitchen]]></dc:creator>
+		<pubDate>Fri, 21 May 2021 21:52:19 +0000</pubDate>
+				<category><![CDATA[Build Logs]]></category>
+		<category><![CDATA[chocv1]]></category>
+		<category><![CDATA[reviung41]]></category>
+		<guid isPermaLink="false">http://keyboard.kitchen/?p=146</guid>
+
+					<description><![CDATA[My second fully wireless build! I have been using this now as my daily driver since I built it and it’s a strong candidate for my long term travel ambitions. The BOM Reviung41lp PCB from Cyril nice!nano controller running ZMK firmware Kailh Choc White switches MBK Color keycaps in red from MKUltra MBK Holo keycap [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>My second fully wireless build! I have been using this now as my daily driver since I built it and it’s a strong candidate for my long term travel ambitions.</p>
+
+
+
+<h2 class="wp-block-heading">The BOM</h2>
+
+
+
+<ul><li><a href="https://github.com/cyril279/keyboards/tree/main/revlp">Reviung41lp</a> PCB from <a href="https://github.com/cyril279">Cyril</a></li><li><a href="https://nicekeyboards.com/nice-nano/">nice!nano controller</a> running <a href="https://zmkfirmware.dev/">ZMK firmware</a></li><li>Kailh Choc White switches</li><li><a href="https://mkultra.click/mbk-colors/">MBK Color</a> keycaps in red from MKUltra</li><li>MBK Holo keycap prototypes from kartsims</li><li>Kailh Choc hotswap sockets</li><li>ZMK Firmware</li></ul>
+
+
+
+<h2 class="wp-block-heading">The Build</h2>
+
+
+
+<p><iframe title="Building a Reviung41 LP" width="1000" height="563" src="https://www.youtube.com/embed/kxWobCVAOa4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+
+
+
+<p>Given this is a wireless-only board for me, there are no frills, no OLED displays, no LEDs, nothing of the sort, just a controller, a bunch of diodes, and a bunch of hotswap sockets. So it went really quickly.</p>
+
+
+
+<p>One really great thing about this board is it has some extra nice bits for battery-powered usage. On-board is an inline power switch to disconnect the battery, and 2 pads for soldering the battery leads to. The battery fits nicely underneath the nice!nano, though if I were to make this myself I would set it up such that the nice!nano is flipped so it can sit a little lower on the board. I would also have made the battery lead pads be through hole rather than surface mount as they probably would have been easier to solder.</p>
+
+
+
+<p>For firmware, I’m using the awesome <a href="https://zmkfirmware.dev/">ZMK</a>. Cyril was kind enough to create a shield in zmk for this so adding my keymap was as simple as copying <a href="https://github.com/cyril279/zmk-config/blob/main/config/reviung41.overlay">his overlay file</a> into my repo and setting up my <a href="https://github.com/kitchen/zmk-config/blob/main/config/reviung41.keymap">keymap</a>. Then, I let the github actions take over, build my firmware, and copy it to my board. Easy peasy. The way the nice!nano takes firmware updates is you double click the reset button and it exposes itself to the host OS as a USB drive, then you drag the firmware over. This doesn’t seem to work with iPadOS, however, so it’s not perfect, yet, but I’d like to see what I can do to help make that a reality, as that would allow me to update my firmware on the road without having access to a computer.</p>
+
+
+
+<h2 class="wp-block-heading">The Finished Product</h2>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/05/img_3655.jpg?w=1024" alt="" class="wp-image-154" /></figure>
+
+
+
+<p>This is still my daily driver and likely will be for the foresee able future. I am not the biggest fan of clicky switches, but the choc whites and the choc robins provide the tactility that I like that the browns don’t deliver. I’m looking forward to getting my hands on a similar PCB with chocv2 switch support and building that up. I also feel like I like mx spacing better, but I’ve been getting used to the choc spacing on this board, so who knows.</p>
+
+
+
+<h2 class="wp-block-heading">Obligatory Typing Test</h2>
+
+
+
+<p><iframe title="Reving41lp typing test" width="1000" height="563" src="https://www.youtube.com/embed/OeVj38V8JXQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/build-log-reviung41lp/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Build log: Corne Chocolate v2.1</title>
+		<link>/build-log-corne-chocolate-v2-1/</link>
+					<comments>/build-log-corne-chocolate-v2-1/#comments</comments>
+		
+		<dc:creator><![CDATA[kitchen]]></dc:creator>
+		<pubDate>Mon, 29 Mar 2021 04:26:55 +0000</pubDate>
+				<category><![CDATA[Build Logs]]></category>
+		<category><![CDATA[build log]]></category>
+		<category><![CDATA[chocv1]]></category>
+		<category><![CDATA[corne]]></category>
+		<guid isPermaLink="false">http://keyboard.kitchen/2021/03/28/build-log-corne-chocolate-v2-1/</guid>
+
+					<description><![CDATA[The idea with this build was to make a very light weight very low profile wireless keyboard for travel purposes. Perhaps even for Long Term Travel purposes. It has evolved a fair amount over time, but I think it’s mostly in its final form. I do get a lot of questions about various aspects of [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/03/img_3489.jpg?w=1024" alt="" class="wp-image-62" /><figcaption>Corne Chocolate v2.1</figcaption></figure>
+
+
+
+<p>The idea with this build was to make a very light weight very low profile wireless keyboard for travel purposes. Perhaps even for Long Term Travel purposes. It has evolved a fair amount over time, but I think it’s mostly in its final form. I do get a lot of questions about various aspects of the build, so I thought I’d finally do a writeup of what all I have.</p>
+
+
+
+<p>From a very high level, this is a:</p>
+
+
+
+<ul><li>Corne Chocolate v2.1 PCB kit</li><li>nice!nano controllers</li><li>choc robin switches</li><li>mbk blank white keycaps</li><li>Corne LP case</li></ul>
+
+
+
+<p>There are no OLEDs, nor are there any RGB LEDs.</p>
+
+
+
+<p>The build itself is a pretty standard choc corne build: SMD diodes, kailh hotswap sockets, and reset button. I could have done without the reset buttons, but I was resetting the board so much while trying to get everything figured out and connected to bluetooth and such I ended up soldering them on for easier resetting.</p>
+
+
+
+<p>The nice!nano controllers are mounted face up, using the controller holes for the other side of the board. I did this because I wanted the flat side down on the nanos, to make them sit much lower on top of the 301230 batteries that are stuffed underneath them.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/03/img_3440.jpg?w=1024" alt="" class="wp-image-63" /><figcaption>close-up of nice!nano, battery wires, and power switch</figcaption></figure>
+
+
+
+<p>I installed the batteries so the wires were coming out of the bottom of the controller area and routed them through holes in the TRRS footprint to the underside of the board. One of the TRRS pads is actually for ground, so I routed the black/negative wire through there and soldered it on the underside. The red/positive wire goes through one of 4 holes in the footprint that doesn’t have any pads on it.</p>
+
+
+
+<p>The switch is a <a href="https://www.digikey.com/short/5vr7c0rn">SPDT slide switch</a> I got from digikey. I use it to be able to switch the power off entirely to the keyboard so when I put the board into my backpack it’s not powered up. The switch has 3 legs, one in the center (the Pole) and one on either side of that (the Throws). I clipped one of them off and pushed the other 2 through no-pad holes in the TRRS footprint. On the bottom side of the board I soldered the battery lead to one of the legs, and a little bodge wire from the other leg to the RAW pin on the controller.</p>
+
+
+
+<p>I then squeezed some hot glue on to secure the wire in place so it would hopefully not get snagged on things, as originally this board was meant to be used without a case, and was used that way for several weeks.</p>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="706" height="1447" src="/wp-content/uploads/2021/03/image.jpg?w=500" alt="" class="wp-image-65" srcset="/wp-content/uploads/2021/03/image.jpg 706w, /wp-content/uploads/2021/03/image-146x300.jpg 146w, /wp-content/uploads/2021/03/image-500x1024.jpg 500w" sizes="(max-width: 706px) 100vw, 706px" /><figcaption>really bad picture showing the wiring on the underside of the board</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/03/image-1.jpg?w=1024" alt="" class="wp-image-68" /><figcaption>switches and batteries all wired up with no case</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading">Soldered nice!nanos?!</h2>
+
+
+
+<p>Yes, I soldered my nice!nanos on. I haven’t been an especially big fan of the mill max sockets + diode legs thing, I feel like the diode legs are too thin and bend too easily, making pulling the controller and reinstalling it a pain. And honestly, that’s about the only reason why. I may try all day to justify it for any other reason, but in the end, it’s just that I don’t like the traditional solution. I am on the lookout for better mechanisms for swappability of controllers, though, so perhaps a future build will feature one of those.</p>
+
+
+
+<h2 class="wp-block-heading">Corne LP case</h2>
+
+
+
+<p>Eventually I decided to buy a Corne LP case for it. I’d seen lots of pictures of folks with theirs and thought it looked really nice, so went for it. I’m glad I did. I do still very much like the naked PCB vibe, and especially for Long Term Travel the case is too heavy, but I also like the aesthetic of the Corne LP case. I can always build another naked PCB corne!</p>
+
+
+
+<h2 class="wp-block-heading">Lifted switch pads!</h2>
+
+
+
+<p>One thing that happened with this build is after much swapping of switches and whatnot, I *finally* pulled my first pad from inserting switches into kailh sockets. When I was installing the switches into the plate, one of the pins must have been misaligned, and given that the plate requires a bit of force to seat the switch, I didn’t think anything of applying a bit more force when pushing the switch in. Next thing you know, I have a socket popped off the back of the board. Fortunately it was an easy fix, most of the socket and its pads were still electrically intact, so I just needed to run a little bodge wire from one of the switches to the next in the column and route around the mounting holes and all was well.</p>
+
+
+
+<h2 class="wp-block-heading">Tenting</h2>
+
+
+
+<p>I’d just finished adding some conical rubber feet to my MX Corne right before I built this board and wanted to figure out some sort of tenting solution for this as well. It may seem odd to want to tent a low profile keyboard, but for me the low profile and naked PCB aspect and such is much more about portability than about ergonomics.</p>
+
+
+
+<p>I will say that I made several attempts at securing the same conical bumpers to this board, and while it worked for a time, the hot glue just didn’t want to stay stuck to the PCB, and there’s not enough flat surface on the bottom anywhere to secure the feet directly. I eventually gave up and haven’t used the board tented since. Hell, for a while I didn’t even use any bumpons at all on the board, but I recorded a video of typing on it and someone commented that it was moving all over the place, something I’d noticed but it hadn’t bothered me, and suddenly it bothered me a lot, so I threw some bumpons on.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/03/image-2.jpg?w=1024" alt="" class="wp-image-70" /><figcaption>tenting action shot</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/03/image-3.jpg?w=1024" alt="" class="wp-image-73" /><figcaption>tenting nubs</figcaption></figure>
+
+
+
+<p>Now that I have it in the Corne LP case, it’s possible I may try tenting it again, but I’ve also discovered that if I spread the halves apart more, I can get a lot of the additional comfort I get from tenting just my having my arms a bit straighter and therefore not have to rotate my wrists so much. So we’ll see.</p>
+
+
+
+<h2 class="wp-block-heading">ZMK</h2>
+
+
+
+<p>As this board is using nice!nano controllers, I am running the amazing ZMK firmware on it. It’s the first board I’ve fully set up ZMK on and used and I ported my keymap over from QMK. So far ZMK has support for all of the functionality I want, and the fact that the board is fully wireless is pretty awesome.</p>
+
+
+
+<p>I will say that I’ve had some trouble keeping the thing paired to my macs. I have a macbook pro from work, a personal macbook air, and a personal m1 mac mini, and all of them seem to have trouble keeping paired for some reason or another. However, my primary target for this board is my iPad, and it works perfectly with that. For the other computers in my life, I just hook up the central (left hand) side via usb, something I already have set up anyways for wired boards, and that works perfectly fine. At some point I may try to dig more into the bluetooth macos issues, but for now I am not super concerned about it.</p>
+
+
+
+<h2 class="wp-block-heading">Finally</h2>
+
+
+
+<p>All in all I love this board. I’ve been using it as my daily driver for well over a month now. I’ve gone through a bunch of different switches: tape/lubed reds, robins, gchocs, robins, dark yellows, robins, and now I’m back to robins and probably going to stay that way. I *might* try whites, but I feel like I’ll be starting to play with fire regarding my sockets if I don’t stop swapping out switches all the time. I am almost certainly going to play around with different cap colors, and I even have some surprise caps coming in that I’ll try out!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/build-log-corne-chocolate-v2-1/feed/</wfw:commentRss>
+			<slash:comments>8</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

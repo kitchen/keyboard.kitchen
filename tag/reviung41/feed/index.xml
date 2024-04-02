@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>reviung41 &#8211; keyboard kitchen</title>
+	<atom:link href="/tag/reviung41/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 02 Apr 2024 21:13:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5</generator>
+	<item>
+		<title>Build Log: Reviung41lp</title>
+		<link>/build-log-reviung41lp/</link>
+					<comments>/build-log-reviung41lp/#comments</comments>
+		
+		<dc:creator><![CDATA[kitchen]]></dc:creator>
+		<pubDate>Fri, 21 May 2021 21:52:19 +0000</pubDate>
+				<category><![CDATA[Build Logs]]></category>
+		<category><![CDATA[chocv1]]></category>
+		<category><![CDATA[reviung41]]></category>
+		<guid isPermaLink="false">http://keyboard.kitchen/?p=146</guid>
+
+					<description><![CDATA[My second fully wireless build! I have been using this now as my daily driver since I built it and it’s a strong candidate for my long term travel ambitions. The BOM Reviung41lp PCB from Cyril nice!nano controller running ZMK firmware Kailh Choc White switches MBK Color keycaps in red from MKUltra MBK Holo keycap [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>My second fully wireless build! I have been using this now as my daily driver since I built it and it’s a strong candidate for my long term travel ambitions.</p>
+
+
+
+<h2 class="wp-block-heading">The BOM</h2>
+
+
+
+<ul><li><a href="https://github.com/cyril279/keyboards/tree/main/revlp">Reviung41lp</a> PCB from <a href="https://github.com/cyril279">Cyril</a></li><li><a href="https://nicekeyboards.com/nice-nano/">nice!nano controller</a> running <a href="https://zmkfirmware.dev/">ZMK firmware</a></li><li>Kailh Choc White switches</li><li><a href="https://mkultra.click/mbk-colors/">MBK Color</a> keycaps in red from MKUltra</li><li>MBK Holo keycap prototypes from kartsims</li><li>Kailh Choc hotswap sockets</li><li>ZMK Firmware</li></ul>
+
+
+
+<h2 class="wp-block-heading">The Build</h2>
+
+
+
+<p><iframe title="Building a Reviung41 LP" width="1000" height="563" src="https://www.youtube.com/embed/kxWobCVAOa4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+
+
+
+<p>Given this is a wireless-only board for me, there are no frills, no OLED displays, no LEDs, nothing of the sort, just a controller, a bunch of diodes, and a bunch of hotswap sockets. So it went really quickly.</p>
+
+
+
+<p>One really great thing about this board is it has some extra nice bits for battery-powered usage. On-board is an inline power switch to disconnect the battery, and 2 pads for soldering the battery leads to. The battery fits nicely underneath the nice!nano, though if I were to make this myself I would set it up such that the nice!nano is flipped so it can sit a little lower on the board. I would also have made the battery lead pads be through hole rather than surface mount as they probably would have been easier to solder.</p>
+
+
+
+<p>For firmware, I’m using the awesome <a href="https://zmkfirmware.dev/">ZMK</a>. Cyril was kind enough to create a shield in zmk for this so adding my keymap was as simple as copying <a href="https://github.com/cyril279/zmk-config/blob/main/config/reviung41.overlay">his overlay file</a> into my repo and setting up my <a href="https://github.com/kitchen/zmk-config/blob/main/config/reviung41.keymap">keymap</a>. Then, I let the github actions take over, build my firmware, and copy it to my board. Easy peasy. The way the nice!nano takes firmware updates is you double click the reset button and it exposes itself to the host OS as a USB drive, then you drag the firmware over. This doesn’t seem to work with iPadOS, however, so it’s not perfect, yet, but I’d like to see what I can do to help make that a reality, as that would allow me to update my firmware on the road without having access to a computer.</p>
+
+
+
+<h2 class="wp-block-heading">The Finished Product</h2>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/05/img_3655.jpg?w=1024" alt="" class="wp-image-154" /></figure>
+
+
+
+<p>This is still my daily driver and likely will be for the foresee able future. I am not the biggest fan of clicky switches, but the choc whites and the choc robins provide the tactility that I like that the browns don’t deliver. I’m looking forward to getting my hands on a similar PCB with chocv2 switch support and building that up. I also feel like I like mx spacing better, but I’ve been getting used to the choc spacing on this board, so who knows.</p>
+
+
+
+<h2 class="wp-block-heading">Obligatory Typing Test</h2>
+
+
+
+<p><iframe title="Reving41lp typing test" width="1000" height="563" src="https://www.youtube.com/embed/OeVj38V8JXQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/build-log-reviung41lp/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Build Log: Reviung41</title>
+		<link>/build-log-reviung41/</link>
+					<comments>/build-log-reviung41/#respond</comments>
+		
+		<dc:creator><![CDATA[kitchen]]></dc:creator>
+		<pubDate>Mon, 10 May 2021 01:38:25 +0000</pubDate>
+				<category><![CDATA[Build Logs]]></category>
+		<category><![CDATA[build log]]></category>
+		<category><![CDATA[reviung41]]></category>
+		<guid isPermaLink="false">http://keyboard.kitchen/?p=145</guid>
+
+					<description><![CDATA[I have come across the Reviung many times in my searches through the mechanical keyboard world. I remember early on thinking it didn’t have nearly enough keys, where would I put my brackets, etc. Now I’ve built one and since built another and I absolutely love it. The BOM Reviung41 kit from Boardsource.xyz Pro micro [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>I have come across the Reviung many times in my searches through the mechanical keyboard world. I remember early on thinking it didn’t have nearly enough keys, where would I put my brackets, etc. Now I’ve built one and since built another and I absolutely love it.</p>
+
+
+
+<h2 class="wp-block-heading">The BOM</h2>
+
+
+
+<ul><li><a href="https://boardsource.xyz/store/5f2ef1b52bf5e8714a60f613">Reviung41 kit</a> from Boardsource.xyz</li><li>Pro micro controller</li><li><a href="https://drop.com/buy/drop-invyr-holy-panda-mechanical-switches">Drop+Invyr Holy Panda</a> switches</li><li><a href="https://kbdfans.com/collections/np-profile/products/np-pbt-crayon-keycaps-set">KBDFans NP PBT Crayon</a> caps</li></ul>
+
+
+
+<h2 class="wp-block-heading">The Build</h2>
+
+
+
+<p><iframe title="Let’s Build a Reviung41!" width="1000" height="563" src="https://www.youtube.com/embed/ThYENosI5Z4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+
+
+
+<p>This is a pretty straightforward build. Diodes, hotswap sockets, controller and reset switch. And a few RGBs. I struggled a bit with the RGBs as I always do, but eventually managed to get them all working. I really *really* dig the aesthetic of the one LED on top behind the grill in the switchplate. I do wish it was controllable separately from the rest of the RGBs though so I could have something else going on the underglow but just a solid red LED on the top, but it’s fine.</p>
+
+
+
+<p>I ordered the 2U stabilizers with the kit, and it was the first time I’d used a stabilizer. None of my other boards have 2U caps. I didn’t really know what I was doing. It was a bit of a pain to get installed, but eventually I got there. It was only after I finished putting all of the switches in and started putting caps on that I realized my 2U cap I was using wasn’t equipped with the required bits for stabilizers. And since I need to separate the PCB and the switchplate to get the stabilizer off, I have just left it on there and it’s just extra rattly bits <img src="https://s.w.org/images/core/emoji/15.0.3/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>This was also my first build with the glass diodes that boardsource likes. I tried to use a different method for soldering them than I might have otherwise done and in the end several of them were not fully soldered on, a couple broke off while I was moving the board around for testing, etc. I’m not super certain I’m a fan of these, and in the future I’ll just go with the tried and true tin one pad and reflow it method of soldering them, rather than trying to do anything fancy with flux or whatever. Don’t mess with what works, right?</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/05/img_3581.jpg?w=1024" alt="" class="wp-image-150" /><figcaption>Well *there’s* your problem!</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading">Daily Driver</h2>
+
+
+
+<p>Shortly after I finished building it I took it for a test drive and it immediately became my daily driver. I had forgotten how nice good tactile switches were, since I’d been in the choc world for so long. I really do like the choc v2 brown switches, but they don’t stand up against Holy Pandas at all. The Pandas are on a completely different level.</p>
+
+
+
+<p>Since my standard keymap is designed around a 3&#215;6+3 board, I thought it might be a bit of a challenge to drop down to just 5 thumb keys, but I looked into it more and realized that I don’t even use one of my thumb keys in that keymap, so it was trivial for me to just omit it from the 5 thumb configuration. Adjusting to that change was simple.</p>
+
+
+
+<p>However, they’re also quite loud. And while that’s fine for at home, and maybe at the office, my long term use case for a keyboard is for travel and probably using it a fair amount in coffee shops and whatnot, so quieter is better.</p>
+
+
+
+<p>There are 2 things I’m not the biggest fan of with this build, however. The first is that the LEDs, while great, are not really usable at all with the FR4 base plate that comes with the Boardsource kit. You’d want a transparent or translucent plate. That’s fine, though, that’s a reasonable limitation. However, since the LED on the *top* of the board is the last one in the chain, you can’t have just that LED without the others, unless you want to do a bit of bodging. It would be really nice if the PCB had a jumper that supported that configuration.</p>
+
+
+
+<p>The second is that I should have used a controller with a black PCB instead of one with a blue PCB. This is entirely on me, and I even had controllers I could have used, but for whatever reason I didn’t.</p>
+
+
+
+<p>All in all, I seriously love this board. I have since swapped out the switches with Boba U4s and plan to daily drive it for a week or so to give those a solid try. My first impressions of them is they are as good as if not better than Zilent V2s, but there’s a bit of spring ping I want to look into with them before calling it good.</p>
+
+
+
+<p>I love this board. I love its smaller cousin I have, and I’m hoping to build a chocv2 version at some point. I may have finally reached end game!</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2021/05/img_3582.jpg?w=1024" alt="" class="wp-image-152" /><figcaption>The finished product.</figcaption></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>/build-log-reviung41/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments for keyboard kitchen	</title>
+	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 02 Apr 2024 21:13:10 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5</generator>
+	<item>
+		<title>
+		Comment on Build log: Corne Chocolate v2.1 by kitchen		</title>
+		<link>/build-log-corne-chocolate-v2-1/#comment-10</link>
+
+		<dc:creator><![CDATA[kitchen]]></dc:creator>
+		<pubDate>Tue, 21 Mar 2023 05:38:55 +0000</pubDate>
+		<guid isPermaLink="false">http://keyboard.kitchen/2021/03/28/build-log-corne-chocolate-v2-1/#comment-10</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/build-log-corne-chocolate-v2-1/#comment-9&quot;&gt;Xelek&lt;/a&gt;.
+
+Battery goes on middle, board goes on a side. Or the other way around. Which side doesn’t matter.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/build-log-corne-chocolate-v2-1/#comment-9">Xelek</a>.</p>
+<p>Battery goes on middle, board goes on a side. Or the other way around. Which side doesn’t matter.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Build log: Corne Chocolate v2.1 by Xelek		</title>
+		<link>/build-log-corne-chocolate-v2-1/#comment-9</link>
+
+		<dc:creator><![CDATA[Xelek]]></dc:creator>
+		<pubDate>Tue, 21 Mar 2023 05:36:44 +0000</pubDate>
+		<guid isPermaLink="false">http://keyboard.kitchen/2021/03/28/build-log-corne-chocolate-v2-1/#comment-9</guid>
+
+					<description><![CDATA[Can&#039;t really understand how you wired the thing, there&#039;s so much glue. Does the red from the battery go to the center or the sides? Does it matter which side of the switch you use? Or are they just throws and you just pick one]]></description>
+			<content:encoded><![CDATA[<p>Can&#8217;t really understand how you wired the thing, there&#8217;s so much glue. Does the red from the battery go to the center or the sides? Does it matter which side of the switch you use? Or are they just throws and you just pick one</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Build log: Corne Chocolate v2.1 by kitchen		</title>
+		<link>/build-log-corne-chocolate-v2-1/#comment-7</link>
+
+		<dc:creator><![CDATA[kitchen]]></dc:creator>
+		<pubDate>Sat, 02 Jul 2022 07:18:03 +0000</pubDate>
+		<guid isPermaLink="false">http://keyboard.kitchen/2021/03/28/build-log-corne-chocolate-v2-1/#comment-7</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/build-log-corne-chocolate-v2-1/#comment-6&quot;&gt;Jungo&lt;/a&gt;.
+
+Nah it is almost certainly a firmware thing. Since I published this post, zmk has done a bunch of stuff with Bluetooth pairing and the mac and it’s been much better now, at least with my other boards. I haven’t used this one in some time :)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/build-log-corne-chocolate-v2-1/#comment-6">Jungo</a>.</p>
+<p>Nah it is almost certainly a firmware thing. Since I published this post, zmk has done a bunch of stuff with Bluetooth pairing and the mac and it’s been much better now, at least with my other boards. I haven’t used this one in some time 🙂</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Build log: Corne Chocolate v2.1 by Jungo		</title>
+		<link>/build-log-corne-chocolate-v2-1/#comment-6</link>
+
+		<dc:creator><![CDATA[Jungo]]></dc:creator>
+		<pubDate>Sat, 02 Jul 2022 00:41:27 +0000</pubDate>
+		<guid isPermaLink="false">http://keyboard.kitchen/2021/03/28/build-log-corne-chocolate-v2-1/#comment-6</guid>
+
+					<description><![CDATA[hi,  maybe nfrmicro will work better with mac?]]></description>
+			<content:encoded><![CDATA[<p>hi,  maybe nfrmicro will work better with mac?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Build log: Corne Chocolate v2.1 by kitchen		</title>
+		<link>/build-log-corne-chocolate-v2-1/#comment-5</link>
+
+		<dc:creator><![CDATA[kitchen]]></dc:creator>
+		<pubDate>Fri, 03 Jun 2022 09:27:43 +0000</pubDate>
+		<guid isPermaLink="false">http://keyboard.kitchen/2021/03/28/build-log-corne-chocolate-v2-1/#comment-5</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/build-log-corne-chocolate-v2-1/#comment-4&quot;&gt;Austin&lt;/a&gt;.
+
+It should work just fine, yep! But you don’t want to wire the nanos to each other using the trrs, so you might want to take them off or fill them with glue or something.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/build-log-corne-chocolate-v2-1/#comment-4">Austin</a>.</p>
+<p>It should work just fine, yep! But you don’t want to wire the nanos to each other using the trrs, so you might want to take them off or fill them with glue or something.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Build log: Corne Chocolate v2.1 by Austin		</title>
+		<link>/build-log-corne-chocolate-v2-1/#comment-4</link>
+
+		<dc:creator><![CDATA[Austin]]></dc:creator>
+		<pubDate>Fri, 03 Jun 2022 07:53:50 +0000</pubDate>
+		<guid isPermaLink="false">http://keyboard.kitchen/2021/03/28/build-log-corne-chocolate-v2-1/#comment-4</guid>
+
+					<description><![CDATA[Hi, kitchen. How are you? I hope you are doing well. So I saw your videos on Youtube, and then I want to turn my Corne Choc into wireless split as well(by replacing my Promicro with nice!nano). I can just take my Promicros off without any issue since I am using conthrough on both of them. Just wondering if I don&#039;t take off the TRRS jack, and just solder my battery straight on my nice!nano, will it sill work?]]></description>
+			<content:encoded><![CDATA[<p>Hi, kitchen. How are you? I hope you are doing well. So I saw your videos on Youtube, and then I want to turn my Corne Choc into wireless split as well(by replacing my Promicro with nice!nano). I can just take my Promicros off without any issue since I am using conthrough on both of them. Just wondering if I don&#8217;t take off the TRRS jack, and just solder my battery straight on my nice!nano, will it sill work?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Build Log: Reviung41lp by kitchen		</title>
+		<link>/build-log-reviung41lp/#comment-13</link>
+
+		<dc:creator><![CDATA[kitchen]]></dc:creator>
+		<pubDate>Thu, 26 May 2022 02:32:40 +0000</pubDate>
+		<guid isPermaLink="false">http://keyboard.kitchen/?p=146#comment-13</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/build-log-reviung41lp/#comment-12&quot;&gt;Ben&lt;/a&gt;.
+
+My zmk configs can be found at https://github.com/kitchen/zmk-config
+
+Note that there’s reviung41 and reviung41lp in there and there’s a custom overlay file for the lp that is being included in the build. It’s a bit wonky but it works fine. The idea is that it leverages the reviung41 shield config built in to zmk but uses a different pin out and matrix transform. Honestly it should probably just be a distinct shield but I didn’t know what I was doing at the time and haven’t revisited things.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/build-log-reviung41lp/#comment-12">Ben</a>.</p>
+<p>My zmk configs can be found at <a href="https://github.com/kitchen/zmk-config" rel="nofollow ugc">https://github.com/kitchen/zmk-config</a></p>
+<p>Note that there’s reviung41 and reviung41lp in there and there’s a custom overlay file for the lp that is being included in the build. It’s a bit wonky but it works fine. The idea is that it leverages the reviung41 shield config built in to zmk but uses a different pin out and matrix transform. Honestly it should probably just be a distinct shield but I didn’t know what I was doing at the time and haven’t revisited things.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Build log: Corne Chocolate v2.1 by kitchen		</title>
+		<link>/build-log-corne-chocolate-v2-1/#comment-3</link>
+
+		<dc:creator><![CDATA[kitchen]]></dc:creator>
+		<pubDate>Thu, 26 May 2022 02:32:13 +0000</pubDate>
+		<guid isPermaLink="false">http://keyboard.kitchen/2021/03/28/build-log-corne-chocolate-v2-1/#comment-3</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/build-log-corne-chocolate-v2-1/#comment-2&quot;&gt;maxell&lt;/a&gt;.
+
+Nope! Works just fine for me!]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/build-log-corne-chocolate-v2-1/#comment-2">maxell</a>.</p>
+<p>Nope! Works just fine for me!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Build Log: Reviung41lp by Ben		</title>
+		<link>/build-log-reviung41lp/#comment-12</link>
+
+		<dc:creator><![CDATA[Ben]]></dc:creator>
+		<pubDate>Wed, 25 May 2022 21:44:07 +0000</pubDate>
+		<guid isPermaLink="false">http://keyboard.kitchen/?p=146#comment-12</guid>
+
+					<description><![CDATA[I have the exact same components as you, and I was wondering if you could please send or post on Github your .uf2 file for flashing the nice!nano? The current firmware I have flashed has all the alphas off by a few spaces on the right hand side of the board.]]></description>
+			<content:encoded><![CDATA[<p>I have the exact same components as you, and I was wondering if you could please send or post on Github your .uf2 file for flashing the nice!nano? The current firmware I have flashed has all the alphas off by a few spaces on the right hand side of the board.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Build log: Corne Chocolate v2.1 by maxell		</title>
+		<link>/build-log-corne-chocolate-v2-1/#comment-2</link>
+
+		<dc:creator><![CDATA[maxell]]></dc:creator>
+		<pubDate>Fri, 25 Mar 2022 05:18:36 +0000</pubDate>
+		<guid isPermaLink="false">http://keyboard.kitchen/2021/03/28/build-log-corne-chocolate-v2-1/#comment-2</guid>
+
+					<description><![CDATA[did you have to change anything to run just the naked pcb? how was it? any problems etc, been thinking about going that route with my corne]]></description>
+			<content:encoded><![CDATA[<p>did you have to change anything to run just the naked pcb? how was it? any problems etc, been thinking about going that route with my corne</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
