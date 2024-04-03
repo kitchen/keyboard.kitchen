@@ -20,7 +20,7 @@
 	<item>
 		<title>
 		Comment on Build Log: Reviung41lp by kitchen		</title>
-		<link>/build-log-reviung41lp/#comment-14</link>
+		<link>/2021/05/21/build-log-reviung41lp/#comment-14</link>
 
 		<dc:creator><![CDATA[kitchen]]></dc:creator>
 		<pubDate>Tue, 02 Apr 2024 21:41:50 +0000</pubDate>
@@ -34,16 +34,16 @@
 		<item>
 		<title>
 		Comment on Build log: Corne Chocolate v2.1 by kitchen		</title>
-		<link>/build-log-corne-chocolate-v2-1/#comment-10</link>
+		<link>/2021/03/28/build-log-corne-chocolate-v2-1/#comment-10</link>
 
 		<dc:creator><![CDATA[kitchen]]></dc:creator>
 		<pubDate>Tue, 21 Mar 2023 05:38:55 +0000</pubDate>
 		<guid isPermaLink="false">http://keyboard.kitchen/2021/03/28/build-log-corne-chocolate-v2-1/#comment-10</guid>
 
-					<description><![CDATA[In reply to &lt;a href=&quot;/build-log-corne-chocolate-v2-1/#comment-9&quot;&gt;Xelek&lt;/a&gt;.
+					<description><![CDATA[In reply to &lt;a href=&quot;/2021/03/28/build-log-corne-chocolate-v2-1/#comment-9&quot;&gt;Xelek&lt;/a&gt;.
 
 Battery goes on middle, board goes on a side. Or the other way around. Which side doesn’t matter.]]></description>
-			<content:encoded><![CDATA[<p>In reply to <a href="/build-log-corne-chocolate-v2-1/#comment-9">Xelek</a>.</p>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2021/03/28/build-log-corne-chocolate-v2-1/#comment-9">Xelek</a>.</p>
 <p>Battery goes on middle, board goes on a side. Or the other way around. Which side doesn’t matter.</p>
 ]]></content:encoded>
 		
@@ -51,7 +51,7 @@ Battery goes on middle, board goes on a side. Or the other way around. Which sid
 		<item>
 		<title>
 		Comment on Build log: Corne Chocolate v2.1 by Xelek		</title>
-		<link>/build-log-corne-chocolate-v2-1/#comment-9</link>
+		<link>/2021/03/28/build-log-corne-chocolate-v2-1/#comment-9</link>
 
 		<dc:creator><![CDATA[Xelek]]></dc:creator>
 		<pubDate>Tue, 21 Mar 2023 05:36:44 +0000</pubDate>
@@ -65,16 +65,16 @@ Battery goes on middle, board goes on a side. Or the other way around. Which sid
 		<item>
 		<title>
 		Comment on Build log: Corne Chocolate v2.1 by kitchen		</title>
-		<link>/build-log-corne-chocolate-v2-1/#comment-7</link>
+		<link>/2021/03/28/build-log-corne-chocolate-v2-1/#comment-7</link>
 
 		<dc:creator><![CDATA[kitchen]]></dc:creator>
 		<pubDate>Sat, 02 Jul 2022 07:18:03 +0000</pubDate>
 		<guid isPermaLink="false">http://keyboard.kitchen/2021/03/28/build-log-corne-chocolate-v2-1/#comment-7</guid>
 
-					<description><![CDATA[In reply to &lt;a href=&quot;/build-log-corne-chocolate-v2-1/#comment-6&quot;&gt;Jungo&lt;/a&gt;.
+					<description><![CDATA[In reply to &lt;a href=&quot;/2021/03/28/build-log-corne-chocolate-v2-1/#comment-6&quot;&gt;Jungo&lt;/a&gt;.
 
 Nah it is almost certainly a firmware thing. Since I published this post, zmk has done a bunch of stuff with Bluetooth pairing and the mac and it’s been much better now, at least with my other boards. I haven’t used this one in some time :)]]></description>
-			<content:encoded><![CDATA[<p>In reply to <a href="/build-log-corne-chocolate-v2-1/#comment-6">Jungo</a>.</p>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2021/03/28/build-log-corne-chocolate-v2-1/#comment-6">Jungo</a>.</p>
 <p>Nah it is almost certainly a firmware thing. Since I published this post, zmk has done a bunch of stuff with Bluetooth pairing and the mac and it’s been much better now, at least with my other boards. I haven’t used this one in some time 🙂</p>
 ]]></content:encoded>
 		
@@ -82,7 +82,7 @@ Nah it is almost certainly a firmware thing. Since I published this post, zmk ha
 		<item>
 		<title>
 		Comment on Build log: Corne Chocolate v2.1 by Jungo		</title>
-		<link>/build-log-corne-chocolate-v2-1/#comment-6</link>
+		<link>/2021/03/28/build-log-corne-chocolate-v2-1/#comment-6</link>
 
 		<dc:creator><![CDATA[Jungo]]></dc:creator>
 		<pubDate>Sat, 02 Jul 2022 00:41:27 +0000</pubDate>
@@ -96,16 +96,16 @@ Nah it is almost certainly a firmware thing. Since I published this post, zmk ha
 		<item>
 		<title>
 		Comment on Build log: Corne Chocolate v2.1 by kitchen		</title>
-		<link>/build-log-corne-chocolate-v2-1/#comment-5</link>
+		<link>/2021/03/28/build-log-corne-chocolate-v2-1/#comment-5</link>
 
 		<dc:creator><![CDATA[kitchen]]></dc:creator>
 		<pubDate>Fri, 03 Jun 2022 09:27:43 +0000</pubDate>
 		<guid isPermaLink="false">http://keyboard.kitchen/2021/03/28/build-log-corne-chocolate-v2-1/#comment-5</guid>
 
-					<description><![CDATA[In reply to &lt;a href=&quot;/build-log-corne-chocolate-v2-1/#comment-4&quot;&gt;Austin&lt;/a&gt;.
+					<description><![CDATA[In reply to &lt;a href=&quot;/2021/03/28/build-log-corne-chocolate-v2-1/#comment-4&quot;&gt;Austin&lt;/a&gt;.
 
 It should work just fine, yep! But you don’t want to wire the nanos to each other using the trrs, so you might want to take them off or fill them with glue or something.]]></description>
-			<content:encoded><![CDATA[<p>In reply to <a href="/build-log-corne-chocolate-v2-1/#comment-4">Austin</a>.</p>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2021/03/28/build-log-corne-chocolate-v2-1/#comment-4">Austin</a>.</p>
 <p>It should work just fine, yep! But you don’t want to wire the nanos to each other using the trrs, so you might want to take them off or fill them with glue or something.</p>
 ]]></content:encoded>
 		
@@ -113,7 +113,7 @@ It should work just fine, yep! But you don’t want to wire the nanos to each ot
 		<item>
 		<title>
 		Comment on Build log: Corne Chocolate v2.1 by Austin		</title>
-		<link>/build-log-corne-chocolate-v2-1/#comment-4</link>
+		<link>/2021/03/28/build-log-corne-chocolate-v2-1/#comment-4</link>
 
 		<dc:creator><![CDATA[Austin]]></dc:creator>
 		<pubDate>Fri, 03 Jun 2022 07:53:50 +0000</pubDate>
@@ -127,18 +127,18 @@ It should work just fine, yep! But you don’t want to wire the nanos to each ot
 		<item>
 		<title>
 		Comment on Build Log: Reviung41lp by kitchen		</title>
-		<link>/build-log-reviung41lp/#comment-13</link>
+		<link>/2021/05/21/build-log-reviung41lp/#comment-13</link>
 
 		<dc:creator><![CDATA[kitchen]]></dc:creator>
 		<pubDate>Thu, 26 May 2022 02:32:40 +0000</pubDate>
 		<guid isPermaLink="false">http://keyboard.kitchen/?p=146#comment-13</guid>
 
-					<description><![CDATA[In reply to &lt;a href=&quot;/build-log-reviung41lp/#comment-12&quot;&gt;Ben&lt;/a&gt;.
+					<description><![CDATA[In reply to &lt;a href=&quot;/2021/05/21/build-log-reviung41lp/#comment-12&quot;&gt;Ben&lt;/a&gt;.
 
 My zmk configs can be found at https://github.com/kitchen/zmk-config
 
 Note that there’s reviung41 and reviung41lp in there and there’s a custom overlay file for the lp that is being included in the build. It’s a bit wonky but it works fine. The idea is that it leverages the reviung41 shield config built in to zmk but uses a different pin out and matrix transform. Honestly it should probably just be a distinct shield but I didn’t know what I was doing at the time and haven’t revisited things.]]></description>
-			<content:encoded><![CDATA[<p>In reply to <a href="/build-log-reviung41lp/#comment-12">Ben</a>.</p>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2021/05/21/build-log-reviung41lp/#comment-12">Ben</a>.</p>
 <p>My zmk configs can be found at <a href="https://github.com/kitchen/zmk-config" rel="nofollow ugc">https://github.com/kitchen/zmk-config</a></p>
 <p>Note that there’s reviung41 and reviung41lp in there and there’s a custom overlay file for the lp that is being included in the build. It’s a bit wonky but it works fine. The idea is that it leverages the reviung41 shield config built in to zmk but uses a different pin out and matrix transform. Honestly it should probably just be a distinct shield but I didn’t know what I was doing at the time and haven’t revisited things.</p>
 ]]></content:encoded>
@@ -147,16 +147,16 @@ Note that there’s reviung41 and reviung41lp in there and there’s a custom ov
 		<item>
 		<title>
 		Comment on Build log: Corne Chocolate v2.1 by kitchen		</title>
-		<link>/build-log-corne-chocolate-v2-1/#comment-3</link>
+		<link>/2021/03/28/build-log-corne-chocolate-v2-1/#comment-3</link>
 
 		<dc:creator><![CDATA[kitchen]]></dc:creator>
 		<pubDate>Thu, 26 May 2022 02:32:13 +0000</pubDate>
 		<guid isPermaLink="false">http://keyboard.kitchen/2021/03/28/build-log-corne-chocolate-v2-1/#comment-3</guid>
 
-					<description><![CDATA[In reply to &lt;a href=&quot;/build-log-corne-chocolate-v2-1/#comment-2&quot;&gt;maxell&lt;/a&gt;.
+					<description><![CDATA[In reply to &lt;a href=&quot;/2021/03/28/build-log-corne-chocolate-v2-1/#comment-2&quot;&gt;maxell&lt;/a&gt;.
 
 Nope! Works just fine for me!]]></description>
-			<content:encoded><![CDATA[<p>In reply to <a href="/build-log-corne-chocolate-v2-1/#comment-2">maxell</a>.</p>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2021/03/28/build-log-corne-chocolate-v2-1/#comment-2">maxell</a>.</p>
 <p>Nope! Works just fine for me!</p>
 ]]></content:encoded>
 		
@@ -164,7 +164,7 @@ Nope! Works just fine for me!]]></description>
 		<item>
 		<title>
 		Comment on Build Log: Reviung41lp by Ben		</title>
-		<link>/build-log-reviung41lp/#comment-12</link>
+		<link>/2021/05/21/build-log-reviung41lp/#comment-12</link>
 
 		<dc:creator><![CDATA[Ben]]></dc:creator>
 		<pubDate>Wed, 25 May 2022 21:44:07 +0000</pubDate>

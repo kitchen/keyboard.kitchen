@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Build Log: Reviung41lp	</title>
-	<atom:link href="/build-log-reviung41lp/feed/" rel="self" type="application/rss+xml" />
-	<link>/build-log-reviung41lp/</link>
+	<atom:link href="/2021/05/21/build-log-reviung41lp/feed/" rel="self" type="application/rss+xml" />
+	<link>/2021/05/21/build-log-reviung41lp/</link>
 	<description></description>
 	<lastBuildDate>Tue, 02 Apr 2024 21:46:55 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,7 +20,7 @@
 	<item>
 		<title>
 		By: kitchen		</title>
-		<link>/build-log-reviung41lp/#comment-14</link>
+		<link>/2021/05/21/build-log-reviung41lp/#comment-14</link>
 
 		<dc:creator><![CDATA[kitchen]]></dc:creator>
 		<pubDate>Tue, 02 Apr 2024 21:41:50 +0000</pubDate>
@@ -34,18 +34,18 @@
 		<item>
 		<title>
 		By: kitchen		</title>
-		<link>/build-log-reviung41lp/#comment-13</link>
+		<link>/2021/05/21/build-log-reviung41lp/#comment-13</link>
 
 		<dc:creator><![CDATA[kitchen]]></dc:creator>
 		<pubDate>Thu, 26 May 2022 02:32:40 +0000</pubDate>
 		<guid isPermaLink="false">http://keyboard.kitchen/?p=146#comment-13</guid>
 
-					<description><![CDATA[In reply to &lt;a href=&quot;/build-log-reviung41lp/#comment-12&quot;&gt;Ben&lt;/a&gt;.
+					<description><![CDATA[In reply to &lt;a href=&quot;/2021/05/21/build-log-reviung41lp/#comment-12&quot;&gt;Ben&lt;/a&gt;.
 
 My zmk configs can be found at https://github.com/kitchen/zmk-config
 
 Note that there’s reviung41 and reviung41lp in there and there’s a custom overlay file for the lp that is being included in the build. It’s a bit wonky but it works fine. The idea is that it leverages the reviung41 shield config built in to zmk but uses a different pin out and matrix transform. Honestly it should probably just be a distinct shield but I didn’t know what I was doing at the time and haven’t revisited things.]]></description>
-			<content:encoded><![CDATA[<p>In reply to <a href="/build-log-reviung41lp/#comment-12">Ben</a>.</p>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2021/05/21/build-log-reviung41lp/#comment-12">Ben</a>.</p>
 <p>My zmk configs can be found at <a href="https://github.com/kitchen/zmk-config" rel="nofollow ugc">https://github.com/kitchen/zmk-config</a></p>
 <p>Note that there’s reviung41 and reviung41lp in there and there’s a custom overlay file for the lp that is being included in the build. It’s a bit wonky but it works fine. The idea is that it leverages the reviung41 shield config built in to zmk but uses a different pin out and matrix transform. Honestly it should probably just be a distinct shield but I didn’t know what I was doing at the time and haven’t revisited things.</p>
 ]]></content:encoded>
@@ -54,7 +54,7 @@ Note that there’s reviung41 and reviung41lp in there and there’s a custom ov
 		<item>
 		<title>
 		By: Ben		</title>
-		<link>/build-log-reviung41lp/#comment-12</link>
+		<link>/2021/05/21/build-log-reviung41lp/#comment-12</link>
 
 		<dc:creator><![CDATA[Ben]]></dc:creator>
 		<pubDate>Wed, 25 May 2022 21:44:07 +0000</pubDate>
